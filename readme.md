@@ -1,8 +1,8 @@
 # C Rootkit
-This is a projecct I made to learn a bit more about linux internals and the C language.
-It is not widely tested and it is not stealthy (yet ;)), so I do not recommend using at all.
-It currently hides all files that start with the string 'rootkit'
-
+This is a projecct I made to learn a bit more about linux internals and the C language.   
+It is not widely tested and it is not stealthy (yet ;)), so I do not recommend using at all.  
+For now, all it does is hide all files that start with the string 'rootkit'  
+  
 It was created on:
 ```bash
 uname -a
