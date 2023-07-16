@@ -4,7 +4,7 @@ It is not widely tested and it is not stealthy (yet ;)), so I do not recommend u
 It currently hides all files that start with the string 'rootkit'
 
 It was created on:
-```sh
+```bash
 uname -a
 Linux UBUNTU 5.19.0-45-generic #46~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jun 7 15:06:04 UTC 20 x86_64 x86_64 x86_64 GNU/Linux
 lsb_release -a
@@ -18,7 +18,7 @@ Codename:	jammy
 ### Setup
 To use it download the C file and the Make file,
 put them in the same directory, and in the directory enter the 'make' command
-```sh
+```bash
 mkdir ~/rootkit
 mv rootkit.c Makefile ~/rootkit/
 cd ~/rootkit/
@@ -28,7 +28,7 @@ You should now have a bunch of files in that directory.
 
 ### Running the rootkit
 To run it:
-```sh
+```bash
 sudo su            # switch to root user
 cd ~/rootkit/      # switch to the rootkit directory
 lsmod              # show all loaded kernel modules, you will not see the 'rootkit' module cause we haven't loaded it yet
