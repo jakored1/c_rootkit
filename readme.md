@@ -5,9 +5,9 @@ It currently hides all files that start with the string 'rootkit'
 
 It was created on:
 ```sh
-$ uname -a
+uname -a
 Linux UBUNTU 5.19.0-45-generic #46~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jun 7 15:06:04 UTC 20 x86_64 x86_64 x86_64 GNU/Linux
-$ lsb_release -a
+lsb_release -a
 No LSB modules are available.
 Distributor ID:	Ubuntu
 Description:	Ubuntu 22.04.2 LTS
