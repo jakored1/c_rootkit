@@ -5,8 +5,6 @@
 //
 // The features this kernel module have:
 // 1. hides itself from 'ls' type commands (wont be shown in directories and such)
-// 2. hides it's own process
-
 
 /* NOTES FOR MYSELF AND HOW TO WORK WITH KERNEL MODULES */
 // Read kernel messages:
