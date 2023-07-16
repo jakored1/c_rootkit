@@ -37,7 +37,7 @@ To run it:
 sudo su            # switch to root user
 cd ~/rootkit/      # switch to the rootkit directory
 lsmod              # show all loaded kernel modules, you will not see the 'rootkit' module cause we haven't loaded it yet
-dmesg --clear      # clears all kernel logs so it will be easy to see ours
+dmesg --clear      # clears all kernel logs so it will be easy to see our rootkit logs
 insmod rootkit.ko  # load rootkit and run it!
 lsmod              # now you should see the rootkit here 
 dmesg              # show kernel logs, we will see our rootkit messages here
