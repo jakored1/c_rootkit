@@ -25,7 +25,7 @@ mv rootkit.c Makefile ~/rootkit/
 cd ~/rootkit/
 sudo make
 ```
-You should now have a bunch of files in that directory.
+You should now have a bunch of files in that directory.  
 If you feel like deleting them later, just run 'make clean' in the same directory
 
 ### Running the rootkit
