@@ -20,7 +20,7 @@ Linux version 5.19.0-46-generic (buildd@lcy02-amd64-025) (x86_64-linux-gnu-gcc (
 ```
 
 ### Setup
-To use it download the C file and the Make file,
+To use it download the rootkit.c file and the Makefile,  
 put them in the same directory, and in the directory enter the 'make' command
 ```bash
 mkdir ~/rootkit
